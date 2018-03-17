@@ -1,5 +1,6 @@
-
-
+* {
+    background-color: #ECEFF1;
+}
 
 #ab{
     float: left;
@@ -27,6 +28,7 @@
 
 .blue-bar {
     clear: both;
+    height: 1.6em;
     background: -webkit-linear-gradient(top, #546E7A, #607D8B);
     width: 100%;
     list-style: none;
@@ -46,7 +48,7 @@
     background: -webkit-linear-gradient(top, #546E7A, #607D8B);
     text-decoration: none;
     font-size: 1em;
-    font-family: serif;
+    font-family: "Times New Roman", serif;
     color: #FFFFFF;
     display: inline-block;
     padding: 0.2em 0.4em;
@@ -63,5 +65,80 @@ ul li {
     float: right
 }
 
+#acc {
+    margin-top: 2em;
+    margin-left: 8em;
+    margin-bottom: 2em;
+    float: left;
+    width: 30%;
+    border: 0.01em solid #E0E0E0;
+    line-height: 1;
+    text-align: left;
+    display: inline-block;
+    padding: 1em;
+
+}
+
+#mon {
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-right: 8em;
+    float: left;
+    width: 40%;
+    border: 0.01em solid #E0E0E0;
+    line-height: 1;
+    text-align: left;
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+#feed {
+    margin-left: 8em;
+    margin-top: 2em;
+    margin-right: 2em;
+    float: left;
+    width: 30%;
+    border: 0.01em solid #E0E0E0;
+    line-height: 1;
+
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+#butFeed {
+    margin-top: 1em;
+    border: 0.01em solid #80DEEA;
+    text-align: center;
+    color: #80DEEA;
+    font-family: "Lucida Bright", serif;
+    display: block;
+}
 
 
+
+.footer {
+    margin-top: 3em;
+    clear: both;
+    text-align: center;
+    color: black;
+    font-family: "Times New Roman", serif;
+}
+
+.separator {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.item-list {
+    font-size: 0.8em;
+}
