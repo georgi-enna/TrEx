@@ -28,20 +28,20 @@
     <fieldset>
 
     <label> First Name <br> <label>
-      <input type="text" name="firstname">
+      <input type="text" name="firstname" required>
       <br>
     <label> Last Name <br> <label>
-      <input type="text" name="lasttname">
+      <input type="text" name="lasttname" required>
       <br>
     <label> Email address <br></label>
-      <input type="email" name="email">
+      <input type="email" name="email" required>
       <br>
     <label> Phone (recommended) <br> </label>
       <input type="text" name="phone">
       <p>Standard call, messaging or data rates may apply.</p>
       <br>
     <label> Password <br> </label>
-      <input type"password" name="password">
+      <input type="password" name="password" minlength="8" maxlength="32" required>
       <br>
     <button type="submit" form="signup"> Create Account </button>
   </fieldset>
