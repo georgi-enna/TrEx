@@ -28,14 +28,14 @@
 
 .blue-bar {
     clear: both;
-    height:1.8em;
+    height:2em;
     width: 100%;
     background: -webkit-linear-gradient(top, #546E7A, #607D8B);
 }
 
 .mainbar {
     background: -webkit-linear-gradient(top, #546E7A, #607D8B);
-    height: 1.8em;
+    height: 2em;
     width: 45em;
     margin: 0 auto;
 }
@@ -43,7 +43,7 @@
 .abar {
     background: -webkit-linear-gradient(top, #546E7A, #607D8B);
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-family: "Times New Roman", serif;
     color: #FFFFFF;
     display: inline-block;
@@ -63,54 +63,58 @@ ul li {
     list-style: none;
 }
 
-
-
-#acc {
-    margin: 2em 2em 2em 8em;
-    float: left;
-    width: 35%;
-    border: 0.01em solid #E0E0E0;
-    line-height: 1;
-    text-align: left;
-    display: inline-block;
-    padding: 1em;
-
+.maintranz {
+    text-align: center;
+}
+#title{
+    margin-top:2em;
+    float:left;
+    width: 25%;
+    margin-left: 16em;
 }
 
-#mon {
-    margin: 2em 8em 2em 2em;
-    float: left;
-    width: 30%;
-    border: 0.01em solid #E0E0E0;
-    line-height: 1;
-    text-align: left;
-    display: inline-block;
-    padding: 1em;
+
+#searchtraz{
+    margin-top:3em;
+    float:left;
+    margin-left: 2em;
+    margin-right: 16em;
+    width: 25%;
 }
 
-#feed {
-    clear:both;
-    margin: 2em 2em 2em 8em;
+input[type=search] {
+    border: 0.07em solid #999;
+    border-radius: 0.2em;
     float: left;
-    width: 35%;
-    border: 0.01em solid #E0E0E0;
-    line-height: 1;
-    display: inline-block;
-    padding: 1em;
-}
 
-#butFeed {
-    margin-top: 1em;
+}
+#butS{
+    float: left;
     border: 0.01em solid #80DEEA;
     text-align: center;
-    color: #80DEEA;
+    background-color: #80DEEA;
     font-family: "Lucida Bright", serif;
     display: block;
+    color:#FFFFFF;
+    margin-left: 1em;
+
 }
-#butFeed:hover{
-    color:black;
-    font-weight: bold;
+.count
+{
+    text-align: center;
 }
+#cash{
+    clear:both;
+    float:left;
+    width: 25%;
+    margin-left: 16em;
+}
+#debt{
+    float:left;
+    width:25%;
+    margin-right: 16em;
+}
+
 
 
 .footer {
