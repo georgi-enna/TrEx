@@ -14,8 +14,8 @@
     <div><a id="logo" href="Home.html"><img src="mylogos.png" alt="image"></a>
     </div>
     <div class="myname">
-        <a >Already have an account?</a>
-        <a class="dropdown-item" href="signin.html"> <strong>Sign In </strong></a>
+        <a >Don`t have an account, yet?</a>
+        <a class="dropdown-item" href="signup.html"> <strong> Sign Up </strong></a>
         <br>
         <a class="dropdown-item" href="#"> I forgot my User Id or Password</a>
     </div>
@@ -34,27 +34,17 @@
 <section class="middle_page">
 
 <div id="acc">
-  <h2> Manage your profit, today ! </h2>
-  <form action="signin.html" method="post" id="signup">
+  <h2> Hi, Big Cheese ! </h2>
+  <form action="home.html" method="get" id="signup">
     <fieldset>
 
-    <label> First Name <br> <label>
-      <input type="text" name="firstname" required>
-      <br>
-    <label> Last Name <br> <label>
-      <input type="text" name="lasttname" required>
-      <br>
-    <label> Email address <br></label>
-      <input type="email" name="email" required>
-      <br>
-    <label> Phone (recommended) <br> </label>
-      <input type="text" name="phone">
-      <p>Standard call, messaging or data rates may apply.</p>
+    <label> Email or User ID <br></label>
+      <input type="email" name="email" value="georgian.trofin@gmail.com" required>
       <br>
     <label> Password <br> </label>
-      <input type="password" name="password" minlength="8" maxlength="32" required>
+      <input type="password" name="password"  required>
       <br>
-    <button type="submit" form="signup"> Create Account </button>
+    <button type="submit" form="signup"> Login </button>
   </fieldset>
   </form>
 </div>
