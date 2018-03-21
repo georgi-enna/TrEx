@@ -1,0 +1,122 @@
+* {
+    background-color: #ECEFF1;
+}
+
+#ab{
+    float: left;
+    width:33%;
+    text-align: center;
+
+}
+#logo {
+
+    width:33%;
+    float: left;
+    text-align: center;
+}
+
+.myname{
+    width: 30%;
+    float: right;
+    text-align: right;
+    color:black;
+    padding-left: 2em;
+
+
+}
+
+
+.blue-bar {
+    clear: both;
+    height:2em;
+    width: 100%;
+    background: -webkit-linear-gradient(top, #546E7A, #607D8B);
+}
+
+.mainbar {
+    background: -webkit-linear-gradient(top, #546E7A, #607D8B);
+    height: 2em;
+    width: 45em;
+    margin: 0 auto;
+}
+
+.abar {
+    background: -webkit-linear-gradient(top, #546E7A, #607D8B);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: "Times New Roman", serif;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    border-left: 0.02em solid;
+    text-transform:uppercase ;
+    float: left;
+
+}
+
+.abar:hover{
+    color:#546E7A;
+    background:#FFFFFF;
+    text-decoration: none;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+}
+.rightbar{
+    float:left;
+}
+
+
+
+.maingoals{
+    margin-top:2em;
+
+}
+#aboutg{
+    width: 25%;
+    float:right;
+    margin-right: 10em;
+    border-left: 0.02em solid #546E7A;
+    padding-left: 2em;
+}
+
+#goals{
+    width: 40%;
+    float:left;
+    margin-left: 10em;
+}
+.maingoals img{
+    width: 3.5em;
+
+}
+.goalsb{
+    margin-top:0.5em;
+    float:left;
+    width: 5em;
+    margin-left: 2em;
+    display: block;
+    text-align: center;
+    padding: 1em 1em 0.5em;
+}
+.footer {
+    margin-top: 3em;
+    clear: both;
+    text-align: center;
+    color: black;
+    font-family: "Times New Roman", serif;
+}
+.item-list {
+    font-size: 0.8em;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}

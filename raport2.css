@@ -1,0 +1,134 @@
+
+
+hr{
+    clear:both;
+}
+
+* {
+    background-color: #ECEFF1;
+
+}
+
+
+#logo {
+
+    width:33%;
+    float: left;
+    text-align: center;
+
+}
+
+.myname{
+    width: 100%;
+    float: right;
+    text-align: right;
+    color:black;
+    padding-left: 2em;
+
+
+}
+
+
+.blue-bar {
+    clear: both;
+    height: 1.6em;
+    background: -webkit-linear-gradient(top, #546E7A, #607D8B);
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.mainbar {
+    clear: both;
+    background: #546E7A;
+    height:3em;
+    text-align: center;
+    width: 100%;
+    display: block;
+
+}
+
+.abar {
+    clear: both;
+    background: #546E7A;
+    font-size: 1em;
+    font-family: "Times New Roman", serif;
+    color: #FFFFFF;
+    border-left: 0.02em solid #ECEFF1;
+    border-right: 0.02em solid #ECEFF1;
+    text-transform: uppercase;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    display: block;
+
+
+}
+
+
+.mainbar ul li {
+    list-style: none;
+    font-size: 0.8em;
+    display: block;
+}
+
+#rightbar {
+    float: right;
+}
+
+.footer {
+    margin-top: 3em;
+    clear: both;
+    text-align: center;
+    color: black;
+    font-family: "Times New Roman", serif;
+}
+
+.separator {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.maingoals{
+
+}
+#aboutg{
+    clear:both;
+    margin-right: 2em;
+    border-top: 0.02em solid #546E7A;
+    padding-left: 2em;
+}
+
+ol li {
+    list-style: none;
+}
+#goals{
+    margin-top: 4em;
+    margin-left: 2em;
+    text-align: left;
+}
+.maingoals img{
+    width: 3.5em;
+
+}
+.goalsb{
+    margin-top:1em;
+    margin-bottom:0.5em;
+
+    width: 5em;
+    float:left;
+    margin-left: 1em;
+    display: block;
+    text-align: center;
+    padding: 1em 1em 0.5em;
+
+}
