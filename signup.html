@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My money box - LogIn</title>
+    <title>My money box - Sign up</title>
     <meta http-equiv="content-type" content="text">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="icon" type="image/x-icon" href="icontit.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="(max-width:1000px)" href="home2-css.css">
+    <link rel="stylesheet" media="(min-width:1150px)" href="home-css.css">
 </head>
 <body>
 <header>
@@ -19,7 +21,7 @@
         <br>
         <a class="dropdown-item" href="#"> I forgot my User Id or Password</a>
     </div>
-<header>
+</header>
 
 <div class="blue-bar">
     <div class="mainbar">
@@ -39,20 +41,20 @@
     <fieldset>
 
     <label> First Name <br> <label>
-      <input type="text" name="firstname" required>
+      <input type="text" name="firstname" value="Georgiana"required>
       <br>
     <label> Last Name <br> <label>
-      <input type="text" name="lasttname" required>
+      <input type="text" name="lasttname" value="Trofin"required>
       <br>
     <label> Email address <br></label>
-      <input type="email" name="email" required>
+      <input type="email" name="email" value="georgiana.trofin@gmail.com" required>
       <br>
     <label> Phone (recommended) <br> </label>
       <input type="text" name="phone">
       <p>Standard call, messaging or data rates may apply.</p>
       <br>
     <label> Password <br> </label>
-      <input type="password" name="password" minlength="8" maxlength="32" required>
+      <input type="password" name="password" value="parolaparola" minlength="8" maxlength="32" required>
       <br>
     <button type="submit" form="signup"> Create Account </button>
   </fieldset>
@@ -61,17 +63,16 @@
 
 </section>
 
-<footer>
-        <hr>
-        <br>
-        <div class="item-list">
-            <a href="#">Conditions of Use</a>
-            <span class="separator"></span>
-            <a href="#">Privacy</a>
-            <span class="separator"></span>
-            <a href="#">Contact us</a>
-        </div>
-        <p>©2018, My Money Box | TW</p>
-</footer>
+<div class="footer">
+    <br>
+    <hr>
+    <br>
+    <div class="item-list">
+        <a href="#">Conditions of Use</a>
+        <span class="separator"></span>
+        <a href="#">Contact us</a>
+    </div>
+    <p>©2018, My Money Box | TW</p>
+</div>
 </body>
 </html>
