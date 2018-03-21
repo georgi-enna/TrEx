@@ -50,10 +50,8 @@
     padding: 0.2em 0.4em;
     border-left: 0.02em solid;
     text-transform:uppercase ;
-    float: left;
 
 }
-
 .abar:hover{
     color:#546E7A;
     background:#FFFFFF;
@@ -64,43 +62,20 @@ ul li {
     float: left;
     list-style: none;
 }
-.rightbar{
-    float:left;
-}
-
-
-
-.maingoals{
-    margin-top:2em;
-
-}
-#aboutg{
-    width: 25%;
-    float:right;
-    margin-right: 10em;
-    border-left: 0.02em solid #546E7A;
-    padding-left: 2em;
-}
-
-#goals{
-    width: 40%;
-    float:left;
-    margin-left: 10em;
-}
-.maingoals img{
-    width: 3.5em;
-
-}
-.goalsb{
-    margin-top:0.5em;
-    border: 0.01em solid #E0E0E0;
-    float:left;
-    width: 5em;
-    margin-left: 2em;
-    display: block;
+#butFeed {
+    margin-top: 1em;
+    border: 0.01em solid #80DEEA;
     text-align: center;
-    padding: 1em 1em 0.5em;
+    color: #80DEEA;
+    font-family: "Lucida Bright", serif;
+    display: block;
 }
+#butFeed:hover{
+    color:black;
+    font-weight: bold;
+}
+
+
 .footer {
     margin-top: 3em;
     clear: both;
@@ -111,7 +86,10 @@ ul li {
 .item-list {
     font-size: 0.8em;
 }
-
+#head{text-align: center}
+.fed{
+    text-align: center;
+}
 
 a {
     text-decoration: none;
@@ -120,4 +98,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+#butsSave {
+    margin-top: 1em;
+    border: 0.01em solid #80DEEA;
+    text-align: center;
+    color: #80DEEA;
+    font-family: "Lucida Bright", serif;
+}
+#butsSave:hover {
+    color: black;
+    font-weight: bold;
 }

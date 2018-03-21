@@ -6,8 +6,8 @@
     <meta http-equiv="content-type" content="text">
     <link rel="icon" type="image/x-icon" href="icontit.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" media="(max-width:1149px)" href="tranz-css2.css">
-    <link rel="stylesheet" media="(min-width:1150px)" href="tranz-css.css">
+    <link rel="stylesheet" media="(max-width:1150px)" href="bill-css.css">
+    <link rel="stylesheet" media="(min-width:1151px)" href="bill-css.css">
 </head>
 <body>
 <div class="header">
@@ -30,33 +30,26 @@
         </ul>
     </div>
     <br>
-<div class="maintranz">
-    <div id="title">
-        <p><strong> Cash & Credit Accounts</strong></p>
-        <p><small> You have added 0 accounts.</small></p>
+    <div id="pagebill">
+    <div class="hea">
+    <h2>Add your own bill</h2>
+    <h6>We will help you manage it.</h6>
     </div>
-    <div id="searchtraz">
-        <form>
-        <input id="searchinput" type="search" placeholder="Search" >
+    <div id="billl">
+        <input type="text" id="bname" placeholder="Name of your bill"><br>
+         <form>
+        <select id="typeb">
+            <option value="Utilities">Utilities</option>
+            <option value="Rent">Rent</option>
+            <option value="Medical">Medical</option>
+            <option value="Education">Education</option>
+        </select>
         </form>
-        <button id="butS">Search</button>
+        <input type="text" id="amount" placeholder="Amount Due">
+        <button id="butbSave" type="button">SAVE</button>
     </div>
 
-<br>
-
-    <div class="count">
-        <div id="cash">
-            <p><strong>TOTAL CASH</strong></p>
-            <p> 0.00 €</P>
-        </div>
-        <div id="debt">
-            <p><strong>TOTAL DEBT</strong> </p>
-            <p> 0.00 €</P>
-        </div>
     </div>
-</div>
-
-
     <div class="footer">
         <br>
         <hr>
@@ -68,6 +61,7 @@
         </div>
         <p>©2018, My Money Box | TW</p>
     </div>
+
 
 </div>
 </body>

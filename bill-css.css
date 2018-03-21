@@ -1,6 +1,11 @@
+.hea{text-align: center}
+#billl{
+    text-align: center;
+}
 * {
     background-color: #ECEFF1;
 }
+
 
 #ab{
     float: left;
@@ -28,14 +33,14 @@
 
 .blue-bar {
     clear: both;
-    height:2em;
+    height:1.8em;
     width: 100%;
     background: -webkit-linear-gradient(top, #546E7A, #607D8B);
 }
 
 .mainbar {
     background: -webkit-linear-gradient(top, #546E7A, #607D8B);
-    height: 2em;
+    height: 1.8em;
     width: 45em;
     margin: 0 auto;
 }
@@ -43,17 +48,15 @@
 .abar {
     background: -webkit-linear-gradient(top, #546E7A, #607D8B);
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: "Times New Roman", serif;
     color: #FFFFFF;
     display: inline-block;
     padding: 0.2em 0.4em;
     border-left: 0.02em solid;
     text-transform:uppercase ;
-    float: left;
 
 }
-
 .abar:hover{
     color:#546E7A;
     background:#FFFFFF;
@@ -70,37 +73,21 @@ ul li {
 
 
 
-.maingoals{
-    margin-top:2em;
 
-}
-#aboutg{
-    width: 25%;
-    float:right;
-    margin-right: 10em;
-    border-left: 0.02em solid #546E7A;
-    padding-left: 2em;
-}
 
-#goals{
-    width: 40%;
-    float:left;
-    margin-left: 10em;
-}
-.maingoals img{
-    width: 3.5em;
-
-}
-.goalsb{
-    margin-top:0.5em;
-    border: 0.01em solid #E0E0E0;
-    float:left;
-    width: 5em;
-    margin-left: 2em;
-    display: block;
+#butbSave {
+    margin-top: 1em;
+    border: 0.01em solid #80DEEA;
     text-align: center;
-    padding: 1em 1em 0.5em;
+    color: #80DEEA;
+    font-family: "Lucida Bright", serif;
 }
+#butbSave:hover{
+    color:black;
+    font-weight: bold;
+}
+
+
 .footer {
     margin-top: 3em;
     clear: both;
